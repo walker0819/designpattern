@@ -10,8 +10,8 @@ public class Event extends EventObject {
 	 * @param source The object on which the Event initially occurred.
 	 * @throws IllegalArgumentException if source is null.
 	 */
-	public Event(Object message) {
-		super(message);
+	public Event(Object source) {
+		super(source);
 	}
 
 }
